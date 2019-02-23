@@ -19,6 +19,10 @@ Tener instalado
 
 Tener descargada API-Cursos
 
+```bash
+    git clone https://github.com/lromano97/API-Cursos.git
+```
+
 ## Instalación
 
 Clonar el proyecto, entrar en la carpeta `/client` y correr el siguente comando, el mismo instalará todos los paquetes necesarios.
