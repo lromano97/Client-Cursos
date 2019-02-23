@@ -1,0 +1,103 @@
+body {
+    background-color: #ee5c21;
+    margin-top: 80px;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+    margin-bottom: 30px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #ee5c21;
+    text-decoration: none;
+}
+
+input {
+    display: block;
+}
+
+input,
+.myButton {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    resize: none;
+    background-color: white;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+button {
+    background-color: white;
+}
+
+form {
+    max-width: 900;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50;
+    border-radius: 8;
+    margin-top: 10vw;
+}
